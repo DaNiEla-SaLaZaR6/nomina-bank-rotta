@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;   
+}
+
+table{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th{
+    border: solid 1px;
+    background-color: rgb(7, 76, 108);
+}
+
+td{
+    border: solid 1px;
+    border-style: dashed;
+    
+}
+
+.resal:hover{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    background-color:rgba(16, 230, 16, 0.513);
+    cursor: cell;
+}
+
